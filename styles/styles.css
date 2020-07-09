@@ -1,0 +1,277 @@
+    body {
+    background: #000;
+    }
+
+/*-- LOGO AND INFORMATION --*/
+
+    .logo {
+    display: block;
+    width: 120px;
+    height: 70px;
+    margin: 10px auto;
+    }
+    
+    .info {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    }
+    
+    .drag {
+        color: #fff;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: .8em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .arrow {
+        display: block;
+        margin: 5px auto;
+        width: 50px;
+        height: 25px;
+    }
+    
+    .pointer {
+        display: none;
+    }
+    
+    /*-- WRAPPER --*/
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #auxiliar {
+        width: 80px;
+    }
+    
+    #ingredient {
+       
+        width: 95px;
+        height: 80px;
+    }
+
+    .bacardi {
+       width: 55px!important;
+    height: 145px!important;
+    margin-top: 4px!important;
+    margin-left: 30px!important;
+    }
+
+   .soda {
+      width: 55px!important;
+    height: 145px!important;
+    margin-top: 4px!important;
+    margin-left: 30px!important;
+    }
+    
+    #glass {
+        width: 80px;
+    }
+    
+    .description {
+        color: #fff;
+    }
+    .hidden {
+        display:none;
+    }
+    .hidden-imp{
+        display:none!important;
+    }
+    .active{
+        display: block;
+    }
+    
+    .glass-ingredient {
+        width: 60px;
+    position: absolute;
+    bottom: 373px;
+    right: 250px;
+    }
+
+    .glass-final {
+    width: 100px;
+    margin: 20px 100px;
+    animation: bounce1 .5s alternate  ease-in;
+    position: absolute;
+   }
+
+   .light-final {
+    width: 260px;
+    position: absolute;
+    top: 68px;
+    right: 25px;
+   }
+
+   .button {
+    width: 300px;
+    position: relative;
+    top: 230px;
+   }
+
+   .shine {
+    position: absolute;
+    left: 105px;
+    width: 30px;
+    top: 220px;
+   }
+
+   .shine-copy {
+    position: absolute;
+    left: 191px;
+    width: 30px;
+    top: 200px;
+   }
+    
+    .pointer {
+    width: 25px;
+    display: none;
+    margin: 0 0 15px 100px;
+    }
+
+@media only screen and (max-width: 360px) {
+
+
+    .logo {
+        display: block;
+        width: 120px;
+        height: 70px;
+        margin: 10px auto;
+    }
+    
+    .info {
+        display: block;
+        margin: 20px auto;
+        width: 200px;
+    }
+    
+    .drag {
+        color: #fff;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: .8em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .arrow {
+        display: block;
+        margin: 5px auto;
+        width: 50px;
+        height: 25px;
+    }
+    
+    .pointer {
+        display: none;
+    }
+    
+    /*-- WRAPPER --*/
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #auxiliar {
+        width: 80px;
+    }
+    
+    #ingredient {
+       margin: 30px auto;
+        width: 95px;
+        height: 80px;
+    }
+    
+    #glass {
+        width: 80px;
+    }
+    
+    .description {
+        color: #fff;
+    }
+    .hidden {
+        display:none;
+    }
+    .hidden-imp{
+        display:none!important;
+    }
+    .active{
+        display: block;
+    }
+    
+    .glass-ingredient {
+        width: 60px;
+        position: absolute;
+        bottom: 452px;
+        right: 110px;
+    }
+    
+    .pointer {
+    width: 25px;
+    display: block;
+    margin: 0 0 15px 100px;
+    }
+
+    .glass-ingredient {
+    width: 60px;
+    position: absolute;
+    bottom: 70px;
+    right: 61px;
+   }
+
+   .glass-final {
+    width: 100px;
+    margin: 5px 100px;
+    animation: bounce1 .5s alternate  ease-in;
+   }
+
+   .light-final {
+    width: 260px;
+    position: absolute;
+    top: 68px;
+    right: 25px;
+   }
+
+   .button {
+    width: 300px;
+   }
+
+
+   .shine {
+    position: absolute;
+    left: 105px;
+    width: 30px;
+    top: 220px;
+   }
+
+   .shine-copy {
+    position: absolute;
+    left: 191px;
+    width: 30px;
+    top: 200px;
+   }
+
+   #text-ingredient {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    bottom: 10px;
+    left:  55px;
+    font-size: 1.2em;
+   }
+
+   @keyframes bounce1 {
+       0% {
+           transform: translateY(-180%);
+       }
+       100% {
+           transform: translateY(0%);
+       }
+   }
+
+}
+
